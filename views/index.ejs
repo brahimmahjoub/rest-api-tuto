@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome</title>
+	
+
+	<!-- JS Ressources-->
+	<script type="javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+	<link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container-fluid">
+    <section class="container">
+		<div class="container-page row" style="margin-top:50px">				
+			<div class="col-md-6">
+				<form method="post" action="/list">
+					<legend>Registration</legend>
+					
+					<div class="form-group col-lg-12">
+						<label>FirstName</label>
+						<input type="text" name="firstName" class="form-control" id="" value="">
+					</div>
+
+					<div class="form-group col-lg-12">
+						<label>LastName</label>
+						<input type="text" name="lastName" class="form-control" id="" value="">
+					</div>
+
+					<div class="form-group col-lg-12">
+						<label>Email</label>
+						<input type="email" name="email" class="form-control" id="" value="">
+					</div>
+					
+					<div class="form-group col-lg-12">
+						<label>Password</label>
+						<input type="password" name="password" class="form-control" id="" value="">
+					</div>
+					<div class="form-group col-lg-12">
+						<button type="submit" class="btn btn-primary">Register</button>
+					</div>
+				</form>
+			</div>
+		
+			<div class="col-md-6">
+				<legend>Terms and Conditions</legend>
+				<p>
+					By clicking on "Register" you agree to The Company's' Terms and Conditions
+				</p>
+				<p>
+					While rare, prices are subject to change based on exchange rate fluctuations - 
+					should such a fluctuation happen, we may request an additional payment. You have the option to request a full refund or to pay the new price. (Paragraph 13.5.8)
+				</p>
+				<p>
+					Should there be an error in the description or pricing of a product, we will provide you with a full refund (Paragraph 13.5.6)
+				</p>
+				<p>
+					Acceptance of an order by us is dependent on our suppliers ability to provide the product. (Paragraph 13.5.6)
+				</p>
+				
+			</div>
+		</div>
+	</section>
+</div>
+</body>
+</html>
